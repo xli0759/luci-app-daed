@@ -66,7 +66,6 @@ define Package/daed
     +ca-bundle +kmod-sched-core +kmod-sched-bpf \
     +kmod-veth +v2ray-geoip +v2ray-geosite \
     +@KERNEL_XDP_SOCKETS \
-    +DAED_USE_VMLINUX_BTF:vmlinux-btf
 endef
 
 define Package/daed/config
